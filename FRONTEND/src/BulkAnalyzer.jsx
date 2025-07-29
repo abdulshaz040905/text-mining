@@ -11,9 +11,14 @@ export default function BulkAnalyzer() {
 
   // Example datasets
   const examples = [
-    `This phone is amazing!\nBattery life is great.\nCamera quality is superb.\nThe screen is sharp and bright.`,
-    `I really dislike this laptop.\nIt's slow and keeps freezing.\nBattery dies quickly.\nNot worth the price.`,
-    `Service was okay.\nFood tasted average.\nAmbience was nice though.\nMight visit again.`,
+    // Example 1 – 5 short reviews
+    `Amazing phone! Totally worth it.\nBattery lasts all day, very satisfied.\nCamera quality is stunning and sharp.\nSuper fast and responsive interface.\nBest purchase I've made this year.`,
+
+    // Example 2 – 15 mixed reviews
+    `Absolutely love this laptop, works smoothly.\nBattery life could be better.\nKeyboard feels great to type on.\nThe screen brightness is okay.\nSometimes gets a bit warm.\nPerformance is impressive for daily tasks.\nSound quality is decent, but not very loud.\nBuild quality feels premium and sturdy.\nSpeakers could have been better.\nBoots up quickly, saves me time.\nGaming performance isn't the best.\nDesign is sleek and professional.\nTrackpad is smooth and accurate.\nValue for money is excellent.\nWould recommend to students and professionals alike.`,
+
+    // Example 3 – 30 lines (big data)
+    `Service was quick and polite.\nFood was served hot and fresh.\nAmbience is very cozy and relaxing.\nMusic volume was just right.\nMenu has plenty of options.\nPortions were generous.\nLoved the dessert section.\nPrices felt reasonable for the quality.\nStaff checked on us regularly.\nRestrooms were clean and tidy.\nDecor is stylish and modern.\nDrinks menu could have more options.\nParking was easy to find nearby.\nWaiting time was minimal.\nTable was clean and comfortable.\nThe lighting is warm and welcoming.\nSoup was perfectly seasoned.\nMain course was flavorful.\nDessert was a highlight.\nWould come back again soon.\nFriends enjoyed it too.\nGreat for family dinners.\nChildren’s menu available.\nThey offer vegan options.\nEasy to book online.\nPayment process was smooth.\nLoved the outdoor seating.\nInside felt spacious.\nHighly recommended for dates.\nOverall a great dining experience!`,
   ];
 
   const handleAnalyze = async () => {
