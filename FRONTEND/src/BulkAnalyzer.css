@@ -3,7 +3,7 @@
 .container {
   max-width: 800px;
   margin: auto;
-  background: linear-gradient(145deg, #c9deff, #ffffff, #c9deff);
+  background: linear-gradient(145deg, #c9deff, #ccf0f7, #c9deff);
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
